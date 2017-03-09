@@ -1,0 +1,364 @@
+body{font-family:Arial; margin:0px; color:grey; }
+
+ul.sidenav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4c4971;
+    overflow: auto;
+    width:100%;
+    height:auto;
+    position:relative;
+}
+
+ul.sidenav li {
+    float: left;
+	margin: auto;
+	padding: 30px;
+}
+
+div.content {
+	margin-left:0;
+}
+
+canvas#lineChart {
+    width: 100% !important;
+    height: auto !important;
+}
+
+canvas#barChart {
+    width: 100% !important;
+}
+
+canvas#pieChart {
+    width: 100% !important;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h3 {
+	color: grey;
+}
+
+textarea {
+	margin: auto;
+	padding: 5px;
+	border:1px solid grey;
+	resize: none;
+	width: 80%;
+	height: 150px;
+	border-radius: 15px;
+}
+
+h5 {
+	position: absolute;
+	color: #7376be;
+	left: 40%;
+}
+
+.main-nav {
+  width: 100%;
+  background: #7376be;
+  min-height: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .title {
+  display: block;
+  margin-right: auto;
+  color: white;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+  color: white;
+}
+
+.mario,.luigi,.peach,.yoshi {
+	height: 75px;
+	width: 75px;
+}
+
+.new-members {
+	position: relative;
+	border: 1px solid grey;
+}
+
+.new-members span.new-email {
+	color: #7376be;
+	font-size: 80%;
+}
+
+.new-members span.status-update {
+	font-size: 70%;
+}
+
+.new-members p.new-name,
+.new-members span.new-email,
+.new-members span.status-update {
+	position: absolute;
+	left: 25%;
+	bottom: 50%;
+}
+
+.date {
+	position: absolute;
+	bottom: 50%;
+	right: 5%;
+}
+
+.mobileList li {
+	padding: 5px;
+}
+
+.social {
+	background-color: #DCDCDC;
+	width: 95%;
+	height: 170px;
+	margin: 20px;
+	border-radius: 20px;
+	position: relative;
+	border: 1px solid grey;
+}
+
+.social svg {
+	background-color: #7376be;
+	padding: 15px;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	border-radius: 30%;
+	
+	float: left;
+}
+
+.social p {
+	position: absolute;
+	left: 40%;
+	top: 20%;
+	font-size: 2.5em;
+	color: black;
+}
+
+.msg-usr-sec, .settings-sec {
+	border: 1px solid grey;
+}
+
+.alert {
+	position: relative;
+	background-color: #7376be;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.x {
+	position: absolute;
+	right: 5px;
+}
+
+.traffic_choices li {
+	display: inline;
+	float: right;
+	padding: 0 5px;
+	color: grey;
+}
+
+#Layer_1,#Line_2,#Line_5,#Line_6,#Line_12,#Twitter,#Facebook,#Google,#me {
+	height: 40px;
+	width: 40px;
+}
+
+#topSearch {
+	float: right;
+	border: none;
+	border-radius: 5px;
+	background-color:#DCDCDC;
+	padding: 5px;
+}
+
+#me,.mario,.luigi,.peach,.yoshi {
+	border-radius: 50%;
+}
+
+#bar {
+	font-size: 250%;
+	color: blue;
+}
+
+#traffic_active {
+	background-color: #83c891;
+	color: white;
+	border-radius: 10px;
+}
+
+#circle {
+    background: #7CFC00;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+	float:right;
+}
+
+#Search-User {
+	width: 80%;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 0 5px;
+}
+
+#send-message {
+	width: 82%;
+	color: white;
+	background-color: #7376be;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 0;
+}
+
+#phoneList:before {
+	content: "██  ";
+	color: #75b1be;
+}
+
+#tabletList:before {
+	content: "██  ";
+	color: #83c891;
+}
+
+#desktopList:before {
+	content: "██  ";
+	color: #7479bd;
+}
+
+#daily-traffic-container,
+#mobile-users-container {
+	border: 1px solid grey;
+}
+
+#pieChart {
+	padding-bottom: 2px;
+}
+
+#timezone {
+	border: none;
+	border-radius: 5px;
+	background-color: #DCDCDC;
+}
+
+#cancel, #save {
+	margin-top: 17px;
+	width: 40%;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+}
+
+#cancel {
+	background-color: grey;
+}
+
+#save {
+	background-color: #7376be;
+}
+
+@media screen and (min-width: 1103px) {
+
+.date {
+	right: 1%;
+}
+
+.new-mem-sec {
+	width: 50%;
+	float: left;
+}
+
+.rec-act-sec {
+	width: 50%;
+	float: right;
+}
+
+.msg-usr-sec {
+	width: 49.8%;
+	float: left;
+}
+
+.settings-sec {
+	width: 49.8%;
+	float: right;
+}
+
+.new-members p.new-name,
+.new-members span.new-email,
+.new-members span.status-update {
+	left: 23%;
+}
+
+.social {
+	width: 27%;
+	float: left;
+	margin: 3%;
+}
+
+h5, .social p {
+	left: 45%;
+}
+
+    ul.sidenav {
+	    width: 55px;
+	    position: absolute;
+	    height: 310%;
+	}
+
+	ul.sidenav li {
+		padding: 5px 5px;
+	}
+
+	div.content {
+	    margin-left: 55px;
+	    padding: 1px 16px;
+	    height: 1000px;
+	}
+
+
+/*}
+
+@media screen and (min-width: 1103px){*/
+	#daily-traffic-container {
+		float: left;
+		width: 49.8%;
+	}
+	#mobile-users-container {
+		float: right;
+		width: 49.8%;
+	}
+	canvas#barChart {
+            width: 70% !important;
+	}
+	canvas#pieChart {
+            width: 70% !important;
+			float: left;
+	}
+	#pieChart ul {
+		display: inline;
+		width: 40%;
+		float: right;
+	}
+
+	#Line_2 {
+		padding-right: 6px;
+		border-right: 3px solid #7CFC00;
+	}
+}
